@@ -29,3 +29,4 @@ Write a single line of output containing the maximum number of cows a broadcast 
 
 - See moocast.java for the source code
 - Each cow can represent a vertex of a graph. For each cow, I determined which cows the cow can reach and created adjacency lists. I then implemented recursive depth-first-search to traverse the graph to determine the number connected vertices to each vertex.
+- My solution's time complexity is O(N*(N+E)), where E is the number of edges.
